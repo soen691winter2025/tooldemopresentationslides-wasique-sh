@@ -35,10 +35,10 @@ mvn test
 ```
 
 ### Output: 
-Example Successfull Patches: ![Successfull Patch](img/Pasted image 20250131193602.png)
+Example Successfull Patches: ![Successfull Patch](img/20250131193602.png)
 - The builtin tests passes and generated the patches successfullly
 
-Example Failed Compilation: ![Failed Compilation](img/Pasted image 20250131193842.png)
+Example Failed Compilation: ![Failed Compilation](img/20250131193842.png)
 - These failed compilation occur when the projects are very old and use very old Java Versions (Java 5, Java 6 & Java 7)
 
 ## b. Run Test-Projects (Dataset)
@@ -50,14 +50,14 @@ java -jar ../nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar   -s src/
 ```
 
 ### Output
-![Nopol Output](img/Pasted image 20250131193337.png)
+![Nopol Output](img/20250131193337.png)
 - The output after running the test-projects closely match to that of in the Nopol [Readme](https://github.com/SpoonLabs/nopol/?tab=readme-ov-file#getting-started)
 
 # 2. Why Nopol?
 I have chosen Nopol because it is a mature yet actively maintained tool (last updated five months ago). It runs on modern systems, and due to its simpler nature, integrating and augmenting it may be easier. Additionally, its README is highly detailed, and multiple studies (three) have been conducted using Nopol.
 
 # 3. Research Questions (RQ)
-### RQ1: Which bugs of Defect4J can automatically be patched with Nopol
+### RQ1: Which bugs of Defect4J can automatically be patched with Nopol?
 Defects4J is a large, stable collection of bugs from various diverse and extensive Java open-source projects. Most of these bugs include test suites and can be executed independently. It would be interesting to determine how many and which of these bugs can be fixed by Nopol.
 
 ### RQ2: Are the Nopol patches readable and reliable?
